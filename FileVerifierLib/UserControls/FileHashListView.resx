@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ItemStateImages.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="ItemStateImages.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAq
+        CAAAAk1TRnQBSQFMAgEBBAEAAQkBAAEEAQABDgEAAQ4BAAT/ARkBAAj/AUIBTQE2BwABNgMAASgDAAE4
+        AwABHAMAAQEBAAEYBQABYAES/wD/AP8A/wD/AP8A/wD/AP8A/wADAAy/HwABjgG/AQABjgG/AQABjgG/
+        AQABjgG/HwABvwIAAb8CAAG/AgABvyEAAb8CAAG/AgABvwIAAb8YAAO/CcAMvxMAAY4BvwEAAY8BwAEA
+        AY8BwAEAAY8BwAEAAY4BvwEAAY4BvwEAAY4BvwEAAY4BvxMAAb8CAAHAAgABwAIAAcACAAG/AgABvwIA
+        Ab8CAAG/FQABvwIAAcACAAHAAgABwAIAAb8CAAG/AgABvwIAAb8PAAPCA8QDxgPHA8YDxAPCCb8NAAGR
+        AcIBAAGSAcQBAAGUAcYBAAGUAccBAAGUAcYBAAGSAcQBAAGRAcIBAAGOAb8BAAGOAb8BAAGOAb8NAAHC
+        AgABxAIAAcYCAAHHAgABxgIAAcQCAAHCAgABvwIAAb8CAAG/DwABwgIAAcQCAAHGAgABxwIAAcYCAAHE
+        AgABwgIAAb8CAAG/AgABvwwAA8gDzAPPA9ADzwPMA8gDxAPAA78NAAGVAcgBAAGYAcwBAAGaAc8BAAGb
+        AdABAAGaAc8BAAGYAcwBAAGVAcgBAAGSAcQBAAGPAcABAAGOAb8NAAHIAgABzAIAAc8CAAHQAgABzwIA
+        AcwCAAHIAgABxAIAAcACAAG/DwAByAIAAcwCAAHPAgAB0AIAAc8CAAHMAgAByAIAAcQCAAHAAgABvwkA
+        A8oD0APWA9kD2wPZA9YD0APKA8QGvwcAAZcBygEAAZsB0AEAAZ8B1gEAAaIB2QEAAaMB2wEAAaIB2QEA
+        AZ8B1gEAAZsB0AEAAZcBygEAAZIBxAEAAY4BvwEAAY4BvwcAAcoCAAHQAgAB1gIAAdkCAAHbAgAB2QIA
+        AdYCAAHQAgABygIAAcQCAAG/AgABvwkAAcoCAAHQAgAB1gIAAdkCAAHbAgAB2QIAAdYCAAHQAgABygIA
+        AcQCAAG/AgABvwYAA9AD2APfA+QD5gPkA98D2APQA8gDwgO/BwABmwHQAQABoQHYAQABpgHfAQABqgHk
+        AQABqwHmAQABqgHkAQABpgHfAQABoQHYAQABmwHQAQABlQHIAQABkQHCAQABjgG/BwAB0AIAAdgCAAHf
+        AgAB5AIAAeYCAAHkAgAB3wIAAdgCAAHQAgAByAIAAcICAAG/CQAB0AIAAdgCAAHfAgAB5AIAAeYCAAHk
+        AgAB3wIAAdgCAAHQAgAByAIAAcICAAG/BgAD1gPfA+gD7gPwA+4D6APfA9YDzAPEA78HAAGfAdYBAAGm
+        Ad8BAAGtAegBAAGxAe4BAAGzAfABAAGxAe4BAAGtAegBAAGmAd8BAAGfAdYBAAGYAcwBAAGSAcQBAAGO
+        Ab8HAAHWAgAB3wIAAegCAAHuAgAB8AIAAe4CAAHoAgAB3wIAAdYCAAHMAgABxAIAAb8JAAHWAgAB3wIA
+        AegCAAHuAgAB8AIAAe4CAAHoAgAB3wIAAdYCAAHMAgABxAIAAb8GAAPZA+QD7gP1A/kD9QPuA+QD2QPP
+        A8YDwAcAAaIB2QEAAaoB5AEAAbEB7gEAAbcB9QEAAboB+QEAAbcB9QEAAbEB7gEAAaoB5AEAAaIB2QEA
+        AZoBzwEAAZQBxgEAAY8BwAcAAdkCAAHkAgAB7gIAAfUCAAH5AgAB9QIAAe4CAAHkAgAB2QIAAc8CAAHG
+        AgABwAkAAdkCAAHkAgAB7gIAAfUCAAH5AgAB9QIAAe4CAAHkAgAB2QIAAc8CAAHGAgABwAkAA+YD8AP5
+        A/8D+QPwA+YD2wPQA8cNAAGrAeYBAAGzAfABAAG6AfkBAAG+Af8BAAG6AfkBAAGzAfABAAGrAeYBAAGj
+        AdsBAAGbAdABAAGUAccNAAHmAgAB8AIAAfkCAAH/AgAB+QIAAfACAAHmAgAB2wIAAdACAAHHDwAB5gIA
+        AfACAAH5AgAB/wIAAfkCAAHwAgAB5gIAAdsCAAHQAgABxwwAA+QD7gP1A/kD9QPuA+QD2QPPA8YNAAGq
+        AeQBAAGxAe4BAAG3AfUBAAG6AfkBAAG3AfUBAAGxAe4BAAGqAeQBAAGiAdkBAAGaAc8BAAGUAcYNAAHk
+        AgAB7gIAAfUCAAH5AgAB9QIAAe4CAAHkAgAB2QIAAc8CAAHGDwAB5AIAAe4CAAH1AgAB+QIAAfUCAAHu
+        AgAB5AIAAdkCAAHPAgABxg8AA+gD7gPwA+4D6APfA9YDzBMAAa0B6AEAAbEB7gEAAbMB8AEAAbEB7gEA
+        Aa0B6AEAAaYB3wEAAZ8B1gEAAZgBzBMAAegCAAHuAgAB8AIAAe4CAAHoAgAB3wIAAdYCAAHMFQAB6AIA
+        Ae4CAAHwAgAB7gIAAegCAAHfAgAB1gIAAcwYAAPmA+QD3wPYHwABqwHmAQABqgHkAQABpgHfAQABoQHY
+        HwAB5gIAAeQCAAHfAgAB2CEAAeYCAAHkAgAB3wIAAdi3AAFCAU0BPgcAAT4DAAEoAwABOAMAARwDAAEB
+        AQABAQUAAeAXAAP/cQAB+AF/AeEB/wGHAf4BHwEAAeABHwGAAX4BAQH4AQcBAAHAAQ8BAAE8AQAB8AED
+        AQABgAEGAQABGAEAAWABAQEAAYABBgEAARgBAAFgAQEhAAGAAQYBAAEYAQABYAEBAQABgAEGAQABGAEA
+        AWABAQEAAcABDwEAATwBAAHwAQMBAAHgAR8BgAF+AQEB+AEHAQAB+AF/AeEB/wGHAf4BHwEACw==
+</value>
+  </data>
+  <data name="COLUMN_HASH_TEXT" xml:space="preserve">
+    <value>Checksum</value>
+  </data>
+  <data name="COLUMN_NAME_TEXT" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ERROR_TEXT_FILE_NOT_ACCESSIBLE" xml:space="preserve">
+    <value>Access denied</value>
+  </data>
+  <data name="ERROR_TEXT_FILE_NOT_FOUND" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="ERROR_TEXT_FILE_NOT_PROCESSED" xml:space="preserve">
+    <value>File not processed</value>
+  </data>
+  <data name="ERROR_TEXT_HASH_NOT_MATCHED" xml:space="preserve">
+    <value>Checksum doesn't match</value>
+  </data>
+  <data name="ERROR_TEXT_HASH_NOT_SPECIFIED" xml:space="preserve">
+    <value>Checksum not specified</value>
+  </data>
+  <data name="COLUMN_RESULT_TEXT" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="ERROR_TEXT_SUCCESS" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+</root>
